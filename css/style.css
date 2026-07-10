@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'google sans', sans-serif;
+}
+
+:root{
+    --primary:#121212;
+    --text-primary: #b3b3b3;
+}
+
+body{
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    padding: 15px 20px;
+}
+
+button{
+    background-color: transparent;
+    border: none;
+    color: var(--text-primary);
+    cursor: pointer;
+    font-size: 20px;
+}
+
+header .header-controls button{
+    font-size: 40px;
+}
+
+header .header-search button{
+    font-size: 33px;
+    background-color: #121212;
+    padding: 8px;
+    border-radius: 50%;
+    line-height: 1;
+}
+
+header .header-search{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+}
+
+header .header-search .group-input{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #121212;
+    padding: 6px 15px;
+    border-radius: 33px;
+    transition: all 0.3s ease;
+    border: 3px solid #121212;
+}
+
+header .header-search .group-input input{
+    border-style: none;
+    background-color: #121212;
+    color: #b3b3b3;
+    font-size: 18px;
+    padding: 5px 10px;
+    outline: none;
+    width: 400px;
+}
+
+header .header-search .group-input:hover{
+    border: 3px solid #b3b3b3;
+}
+
+header .header-search .group-input:focus{
+      border: 3px solid #b3b3b3;
+}
+
+header .header-search .group-input label{
+    background-color: #121212;
+    color: #b3b3b3;
+    font-size: 24px;
+    line-height: 1;
+}
+
+header .header-menu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+}
+
+header .header-menu #menu-profile{
+    font-size: 15px;
+    color: #000;
+    background-color: rgb(167, 53, 167);
+    font-weight: bold;
+    line-height: 1;
+    border-radius: 50%;
+    padding: 13px 15px;
+
+}
+
+header .header-menu #planos{
+    font-size: 5px;
+    background-color: #ffffff;
+    color: #000;
+    font-size: 15px;
+    padding: 8px 10px;
+    border-radius: 30px;
+    width: 175px;
+    font-weight: bold;
+    gap: 8px;
+}
+
+header .header-menu #app{
+    background-color: transparent;
+    border: none;
+    color: var(--text-primary);
+    font-size: 20px;
+    padding: 8px 10px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size:15px;
+    font-weight: bold;
+}
+
+
+
+
+main{
+    background-color: #000;
+    width: 100%;
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding: 10px;
+}
+
+main .screen-default{
+    background-color: #121212;
+    border-radius: 8px;
+}
+
+main .main-menu{
+    flex: 0.2;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 15px 10px;
+    gap: 10px;
+}
+
+main .main-menu #plus-button-menu{
+    background-color:#252525;
+    padding: 5px 7px;
+    font-size: 24px;
+    border-radius: 50%;
+    flex: 1;
+}
+
+main .main-menu button{
+    font-size: 30px;
+}
+
+main .main-menu button img{
+    width: 55px;
+    height: 55px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+main .main-content{
+    flex: 3;
+}
+
+main .main-content .header-main-content{
+    background-image:linear-gradient(180deg, purple, rgb(103, 1, 103), rgb(82, 1, 82));
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    padding: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+main .main-content .header-main-content .playlist-pic{
+    width: 200px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 0 10x rgb(0, 0, 0, 0.5);
+}
+
+
+main .main-music-info{
+    flex: 1;
+}
+
+footer{
+    background-color: #000;
+    height: 120px;
+    width: 100%;
+}
+
+
