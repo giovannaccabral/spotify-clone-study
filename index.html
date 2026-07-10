@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify | My Playlist</title>
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!--Icones-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@7.4.47/css/materialdesignicons.min.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-controls">
+            <button><span class="mdi mdi-spotify"></span></button>
+        </div>
+
+        <div class="header-search">
+            <button><span class="mdi mdi-home-outline"></span></button>
+            
+            <div class="group-input">
+                <label for="input-search"><span class= "mdi mdi-magnify"></span></label>
+                <input type="text" id="input-search" placeholder="O que você quer ouvir?">
+            </div>
+            
+        </div>
+ 
+        <div class="header-menu">
+             <button id="planos"><p>Ver planos Premium</p></button>
+             <button id="app"><i class="mdi mdi-arrow-down-bold-circle-outline"></i><span>Instalar aplicativo</span></button>
+             <button><span class="mdi mdi-bell-outline"></span></button>
+             <button><span class="mdi mdi-account-group-outline"></span></button>
+             <button id="menu-profile">G</button>
+        </div>
+
+
+    </header>
+    <main>
+
+        <nav class="main-menu screen-default">
+            <button><span class="mdi mdi-music-box-multiple-outline"></span></button>
+            <button><span class="mdi mdi-plus" id="plus-button-menu"></span></button>
+            <button>
+                <img src="img/pou" alt="pou">
+            </button>
+        </nav>
+
+        <section class="main-content screen-default">
+            <div class="header-main-content">
+                <img src="assets/pou" class="playlist-pic" alt="pou">
+                <div class="header-main-content-info">
+                    <h3>Playlist pública</h3>
+                    <h1>My Playlist</h1>
+                </div>
+                <div>
+                    <img src="" alt="">
+                    <p>Nome do usuário</p>
+                    <span class="mdi mdi-star-four-points-small"></span>
+                     <p>87 músicas</p>
+                    <span class="mdi mdi-star-four-points-small"></span>
+                     <p>5h</p>
+                    <span class="mdi mdi-star-four-points-small"></span>
+                </div>
+            </div>
+        </section>
+        <section class="main-music-info screen-default"></section>
+
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
