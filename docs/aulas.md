@@ -7,6 +7,6 @@
 
 
 ### (#03)
-✔ Como montar o conteúdo principal da página
-✔ Como usar gradiente no CSS
-✔ Edição de imagem com CSS
+✔ Como montar o conteúdo principal da página <br>
+✔ Como usar gradiente no CSS <br>
+✔ Edição de imagem com CSS <br>
